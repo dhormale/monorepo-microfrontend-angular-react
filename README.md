@@ -1,24 +1,21 @@
-# NxExample
+# Micro Frontends
 
-This project was generated using [Nx](https://nx.dev).
+Vertical slice of functionality that a microservice provides is extended all the way to the front-end.
 
-<p align="center"><img src="https://raw.githubusercontent.com/nrwl/nx/master/nx-logo.png" width="450"></p>
+# Monorepo (Monorepo != Monolith)
 
-🔎 **Nx is a set of Angular CLI power-ups for modern development.**
+Single repository that holds the source code for multiple applications and libraries, along with the tooling for them.
 
-## Nx 5 Example
 
-If you are looking for the Nx 5 Example, it is available on the [`nx-v5-example` branch](https://github.com/nrwl/nx-examples/commits/nx-v5-example).
+## Micro Frontends Tools
+- iFrame
+- Single SPA
+- Bit
+- Systemjs
+- Nx
+- ...
 
-## Quick Start & Documentation
-
-[Nx Documentation](https://nx.dev)
-
-[30-minute video showing all Nx features](https://nx.dev/getting-started/what-is-nx)
-
-[Interactive Tutorial](https://nx.dev/tutorial/01-create-application)
-
-## Adding capabilities to your workspace
+## NX
 
 Nx supports many plugins which add capabilities for developing different types of applications and different tools.
 
@@ -87,10 +84,10 @@ Run `npm run dep-graph` to see a diagram of the dependencies of your projects.
 
 Visit the [Nx Documentation](https://nx.dev) to learn more.
 
-## run default Angular (products) appliaction
+## Run default Angular (products) appliaction
 
 Run `npm run start`
 
-## run React (cart) appliaction
+## Run React (cart) appliaction
 
 Run `ng serve cart --port 4201`
